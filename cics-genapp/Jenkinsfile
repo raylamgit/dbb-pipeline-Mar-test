@@ -10,9 +10,9 @@ def linuxAgent = 'master'
 
 // GIT repositories
 def srcGitRepo = 'https://github.com/PriyanjanaGit/dbb-pipeline-Mar-test.git'
-def srcGitBranch = 'master'
-def zAppBuildGitRepo = 'https://github.com/PriyanjanaGit/dbb-zappbuild.git'
-def zAppBuildGitBranch = 'main'
+def srcGitBranch = 'main'
+def zAppBuildGitRepo = 'https://github.com/PriyanjanaGit/dbb-zappbuild-ray-new.git'
+def zAppBuildGitBranch = 'master'
 def dbbGitRepo = 'https://github.com/PriyanjanaGit/dbb.git'
 def dbbGitBranch = 'main'
 echo 'cics-genapp Jenkinsfile pipeline DBB'
